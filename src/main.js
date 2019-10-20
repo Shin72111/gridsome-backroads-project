@@ -15,8 +15,6 @@ library.add(...icons)
 export default function (Vue, { router, head, isClient }) {
   addMetadata(head)
 
-  window.myHead = head
-  
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon) 
