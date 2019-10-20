@@ -7,12 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import icons from './utils/icons.js'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { addMetadata } from './utils/addMetadata.js'
 
 config.autoAddCss = false;
 library.add(...icons)
 
 export default function (Vue, { router, head, isClient }) {
+  addMetadata(head)
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('font-awesome', FontAwesomeIcon)
+  Vue.component('font-awesome', FontAwesomeIcon) 
 }
