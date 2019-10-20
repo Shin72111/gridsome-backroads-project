@@ -8,7 +8,7 @@ This is a practice project of gridsome by cloning the Backroads project from Gat
 
 ### 2. Clone the project
 
-1. `git clone create my-gridsome-site` to clone the project
+1. `git clone https://github.com/Shin72111/gridsome-backroads-project.git` to clone the project
 2. `cd gridsome-backroads-project` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
