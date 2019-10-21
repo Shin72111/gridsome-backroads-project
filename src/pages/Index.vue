@@ -1,10 +1,10 @@
 <template>
   <Layout>
-    <div class="defaultHero">
+    <StyledHero img="defaultBcg.jpeg" :home="true">
       <Banner title="continue exploring" info="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, quas?">
         <g-link to="/tours" class="btn-white">explore tours</g-link>
       </Banner>
-    </div>
+    </StyledHero>
     <About />
     <Services />
   </Layout>
@@ -13,6 +13,8 @@
 <script>
 import About from '~/components/Home/About'
 import Services from '~/components/Home/Services'
+import StyledHero from '~/components/StyledHero'
+
 
 export default {
   metaInfo: {
@@ -20,11 +22,8 @@ export default {
   },
   components: {
     About,
-    Services
+    Services,
+    StyledHero
   }
 }
 </script>
-
-<style>
-
-</style>
