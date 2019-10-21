@@ -5,12 +5,18 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
-  faAlignRight
+  faAlignRight,
+  faTree,
+  faSocks,
+  faWallet
 } from '@fortawesome/free-solid-svg-icons'
 
 export default [
   faAlignRight,
   faFacebook,
   faTwitter,
-  faSquarespace
+  faSquarespace,
+  faTree,
+  faSocks,
+  faWallet
 ]
