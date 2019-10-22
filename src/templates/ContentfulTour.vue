@@ -68,6 +68,13 @@ query($id: ID!) {
 <script>
 import Day from '~/components/SingleTour/Day'
 
+const capitalize = str => {
+  const words = str.split(' ').map(word => {
+    return word[0].toUpperCase() + word.slice(1)
+  })
+  return words.join(' ')
+}
+
 export default {
   components: {
     Day
@@ -81,6 +88,11 @@ export default {
     },
     tour () {
       return this.$page.tour
+    }
+  },
+  metaInfo () {
+    return {
+      title: capitalize(this.$page.tour.name)
     }
   }
 }

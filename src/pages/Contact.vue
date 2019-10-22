@@ -11,6 +11,9 @@ import Contact from '~/components/Contact/Contact'
 export default {
   components: {
     Contact
+  },
+  metaInfo: {
+    title: 'Contact'
   }
 }
 </script>

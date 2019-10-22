@@ -54,6 +54,9 @@ export default {
   components: {
     BlogCard,
     Pager
+  },
+  metaInfo: {
+    title: 'Blogs'
   }
 }
 </script>

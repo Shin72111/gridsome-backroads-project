@@ -38,6 +38,9 @@ export default {
       console.log(this.$static.allTours.edges)
       return this.$static.allTours.edges
     }
+  },
+  metaInfo: {
+    title: 'Tours'
   }
 }
 </script>
