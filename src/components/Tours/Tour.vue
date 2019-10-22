@@ -34,7 +34,7 @@ export default {
           country: { type: String, required: true },
           price: { type: Number, required: true },
           days: { type: Number, required: true },
-          images: { type: Array, required: true },
+          images: { type: Array, required: true }
         }
       }
     }

@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <StyledHero img="/defaultBcg.jpeg" />
-    <Tours :tours="tours" />
+    <TourList :tours="tours" />
   </Layout>
 </template>
 
@@ -27,11 +27,11 @@ query {
 </static-query>
 
 <script>
-import Tours from '~/components/Tours/Tours'
+import TourList from '~/components/Tours/TourList'
 
 export default {
   components: {
-    Tours
+    TourList
   },
   computed: {
     tours () {

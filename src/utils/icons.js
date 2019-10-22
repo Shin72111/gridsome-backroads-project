@@ -1,7 +1,7 @@
 import {
   faFacebook,
   faTwitter,
-  faSquarespace
+  faSquarespace,
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
@@ -9,7 +9,9 @@ import {
   faTree,
   faSocks,
   faWallet,
-  faMap
+  faMap,
+  faAngleDown,
+  faMoneyBillWave
 } from '@fortawesome/free-solid-svg-icons'
 
 export default [
@@ -20,5 +22,7 @@ export default [
   faTree,
   faSocks,
   faWallet,
-  faMap
+  faMap,
+  faAngleDown,
+  faMoneyBillWave
 ]
