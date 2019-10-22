@@ -8,7 +8,8 @@ import {
   faAlignRight,
   faTree,
   faSocks,
-  faWallet
+  faWallet,
+  faMap
 } from '@fortawesome/free-solid-svg-icons'
 
 export default [
@@ -18,5 +19,6 @@ export default [
   faSquarespace,
   faTree,
   faSocks,
-  faWallet
+  faWallet,
+  faMap
 ]
